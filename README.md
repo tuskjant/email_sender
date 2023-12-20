@@ -22,7 +22,10 @@ adding new ones, and deleting existing tasks.
 ### Demo
 
 
-https://github.com/tuskjant/email_sender/assets/151870795/3039001b-3b4b-4b5f-96d0-05ffdd148a3c
+
+https://github.com/tuskjant/email_sender/assets/151870795/81c34275-e019-4c31-8083-bd2d86bd8cf8
+
+
 
 
 ### Usage
