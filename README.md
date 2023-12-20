@@ -23,7 +23,7 @@ adding new ones, and deleting existing tasks.
 
 
 
-https://github.com/tuskjant/email_sender/assets/151870795/81c34275-e019-4c31-8083-bd2d86bd8cf8
+(https://github.com/tuskjant/email_sender/assets/151870795/81c34275-e019-4c31-8083-bd2d86bd8cf8).playbackRate = 1.5
 
 
 
