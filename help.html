@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h2 style="font-size: 16px;">Email Schedule Manager</h2>
+    <p style="font-size: 10px;">The Email Schedule Manager is a tool designed to assist with planning and automating the
+        sending of emails based on message templates. </p>
+    <h3 style="font-size: 14px;">Features</h3>
+    <ul>
+        <li style="font-size: 10px;">You can enter a single recipient or select a list of recipients from a CSV file.</li>
+        <li style="font-size: 10px;">You can either write an email message or choose one or several pre-existing messages from a TXT file.</li>
+        <li style="font-size: 10px;">It provides programming options for scheduling the emails including single delivery, daily,
+            weekly, monthly and yearly.</li>
+        <li style="font-size: 10px;">Email and message options selection: send to all recipients/all messages every time or once at a time. </li>
+        <li style="font-size: 10px;">You can choose whether to send the email to all recipients or to one recipient at a time. And choose
+            to send all messages at once or one at a time.</li>
+        <li style="font-size: 10px;">The tool allows you to create new task that will be automatically managed.</li>
+        <li style="font-size: 10px;">You can review the email delivery tasks, including listing tasks, adding new ones, and deleting existing tasks.</li>
+    </ul>
+    <h3 style="font-size: 14px;">Configuration</h3>
+    <p style="font-size: 10px;">To use the Email Schedule Manager, you need to enter the necessary details for sending emails. This information,
+        including the password, will be stored in a JSON file in the data folder. Click the config icon
+        <img src="images/configuraciones.png" alt="configuration" width="24" height="24"> to provide this data.</p>
+    <h3  style="font-size: 14px;">How to use</h3>
+    <ol>
+        <li style="font-size: 10px;"><strong>Recipients: </strong>You can manually enter recipient data for up to one recipient. Alternatively, you can use a CSV file
+        where each row represents a recipient, with the format: "name, name@email.com". Choose the email basis: sending
+        to all recipients every time or one recipient at a time. Messages will be sent to recipients by order in one-at-a-time mode. </li>
+        <li style="font-size: 10px;"><strong>Messages: </strong>You can either write up to one message directly or select one or more TXT files to be used as
+            messages. In a TXT file, the first line will be considered the subject of the email. Whenever the characters
+            <b>[NAME]</b> are found in the text, they will be replaced with the recipient's name. Select the messages' basis:
+            sending all messages every time or one message at a time. In one-at-a-time mode, messages will be sent by order.</li>
+        <li style="font-size: 10px;"><strong>Schedule. </strong>Sending dates will be obtained from start to end sending dates using the selected frequency
+            (once, daily, weekly, monthly or yearly) All emails will be sent within 30 minutes around selected time.</li>
+        <li style="font-size: 10px;"><strong>Task </strong>will be shown for revision. To program the task click on
+            <img src="images/correo-electronico_prog.png" alt="program task" width="24" height="24"> sending icon. Program will run on silent mode
+            and emails will be sent on selected dates.
+        </li>
+    </ol>
+    <p style="font-size: 10px;">Click on <img src="images/correo-electronico_lista.png" alt="tasks list icon" width="24" height="24"> to consult
+        and review pending tasks. Select one task and click on the <img src="images/error.png" alt="delete icon" width="24" height="24">
+        to cancel and delete an email delivery task.</p>
+</head>
+<body>
+
+</body>
+</html>
