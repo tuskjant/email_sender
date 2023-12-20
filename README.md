@@ -21,6 +21,10 @@ recipient at a time. And choose to send all messages at once or one at a time.
 adding new ones, and deleting existing tasks.
 ### Demo
 
+
+https://github.com/tuskjant/email_sender/assets/151870795/3039001b-3b4b-4b5f-96d0-05ffdd148a3c
+
+
 ### Usage
 **Configuration:**
 To use the Email Schedule Manager, you need to enter the necessary details 
@@ -45,6 +49,7 @@ and review pending tasks. Select one task and click on the <img src="images/erro
 
 ### Credits
 This python code is made by Gemma Riu, inspired by an exercise from '100 Days of Code' by Angela Yu.
+
 Icons from https://www.flaticon.es :
 + Correo electrónico iconos creados por Uniconlabs
 + Ajustes iconos creados por srip
